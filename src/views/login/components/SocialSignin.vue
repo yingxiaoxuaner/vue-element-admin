@@ -40,6 +40,9 @@ export default {
 <style lang="scss" scoped>
   .social-signup-container {
     margin: 20px 0;
+    //设置成display: inline-block;：将元素设置为内联块级元素，使其既具有块级元素的宽度特性，又保留了内联元素的行内排列特性。
+    //这样可以让元素水平排列，并且可以设置宽度、高度、内外边距等样式属性。
+    //cursor: pointer;：将鼠标指针样式设置为手型，表示该元素可以被点击或悬停。
     .sign-btn {
       display: inline-block;
       cursor: pointer;
@@ -66,7 +69,7 @@ export default {
     }
     .qq-svg-container {
       background-color: #6BA2D6;
-      margin-left: 50px;
+      margin-left: 100px;
     }
   }
 </style>
